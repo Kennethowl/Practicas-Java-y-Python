@@ -2,12 +2,12 @@
 # i shall do a petty iterator
 # it shall has a for cicle
 
-# Dicctionary
+# Dictionary
 name = {
     "Mayra":"love",
     "Alejandra":"faith and hope",
     "Arauz":" all my life",
-    "Mejia":"the best and civil engeenering"
+    "Mejia":"the best in civil engeenering"
 }
 
 # for Cicle
