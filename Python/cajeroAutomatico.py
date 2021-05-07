@@ -16,9 +16,13 @@ while True:
         system("pause > null")
     elif opcion == 2:
         retiro = int(input("Retira la cantidad deseada: "))
-        saldo = int(saldo) - retiro
-        print(f"Saldo disponible: {saldo}")
-        system("pause > null")
+        if retiro > saldo:
+            print("No posee esa cantidad en su cuenta")
+            system("pause > null")
+        else:
+            saldo = int(saldo) - retiro
+            print(f"Saldo disponible: {saldo}")
+            system("pause > null")
     elif opcion == 3:
         deposito = int(input("Deposite la cantidad deseada: "))
         saldo = int(saldo) + deposito
